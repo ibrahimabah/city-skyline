@@ -6,4 +6,5 @@ In this course, I'll be building a City Skyline. I'll be configuring CSS Variabl
 
 Course Reference | [Learn CSS Variables by building a City Skyline](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-1)
 
-Live Preview []()
+Live Preview [City Skyline](https://ibrahimabah.github.io/city-skyline/)
+
