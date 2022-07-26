@@ -330,7 +330,7 @@
             #bbeeff 100%
         );
     
-    ### part 117 - colorful night skyline from root variables on full-screen
+    ### part 117 - colorful night skyline from root variables on resized-screen
     :root {
         --building-color1: #000;
         --building-color2: #000;
