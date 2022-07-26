@@ -1,3 +1,4 @@
+/* code notes at the end */
 :root {
     --building-color1: #aa80ff;
     --building-color2: #66cc99;
@@ -298,27 +299,16 @@
   }
   
   @media (max-width: 1000px) {
-    /* part 117 - colorful skyline from root variables
     :root {
       --building-color1: #000;
       --building-color2: #000;
       --building-color3: #000;
       --building-color4: #000;
+      --window-color1: #777;
+      --window-color2: #777;
+      --window-color3: #777;
+      --window-color4: #777;
     }
-    */
-    :root {
-        --building-color1: #000;
-        --building-color2: #000;
-        --building-color3: #000;
-        --building-color4: #000;
-
-        /* part 118 - root variables changed to gray windows*/
-        --window-color1: #777;
-        --window-color2: #777;
-        --window-color3: #777;
-        --window-color4: #777;
-      }
-
     .sky {
       background: radial-gradient(
           closest-corner circle at 15% 15%,
@@ -328,5 +318,30 @@
           #223 100%
         );
     }
-  }
-      
+  }  
+
+  /* 
+  Code Notes:
+    ### Step 113 - Sunrise Skyline
+        background: radial-gradient(
+            #ffcf33,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%
+        );
+    
+    ### part 117 - colorful night skyline from root variables on full-screen
+    :root {
+        --building-color1: #000;
+        --building-color2: #000;
+        --building-color3: #000;
+        --building-color4: #000;
+
+    ### part 118 - root variables changed to gray windows
+        --window-color1: #777;
+        --window-color2: #777;
+        --window-color3: #777;
+        --window-color4: #777;
+      }
+    
+      */
